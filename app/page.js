@@ -7,7 +7,7 @@ const frameMetadata = getFrameMetadata({
     }
   ],
   image: 'https://lemon-frame.vercel.app/img-1.png',
-  post_url: 'https://lemon-frame.vercel.app/api',
+  post_url: 'https://fram-liart.vercel.app/api',
 });
 
 export const metadata = {
