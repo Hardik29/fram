@@ -1,7 +1,11 @@
 import { getFrameMetadata } from '@coinbase/onchainkit';
 
 const frameMetadata = getFrameMetadata({
-  buttons: 'YES',
+  buttons: [
+    {
+      label: "Begin"
+    }
+  ],
   image: 'https://lemon-frame.vercel.app/img-1.png',
   post_url: 'https://lemon-frame.vercel.app/api',
 });
